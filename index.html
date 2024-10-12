@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Now</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="register-img">
+        <section class="register-title">
+          <h1>REGISTER NOW</h1>
+          <p>While seats are avaliable!</p>
+        </section>
+      </section>
+      <section class="form">
+        <form action="#">
+          <section class="form-flex">
+            <section class="flex-1">
+              <section class="first-name">
+                <label for="firstName">FIRST NAME<span class="red">*</span></label>
+                <input type="text" name="firstName" id="firstName" class="input-box" required />
+              </section>
+
+              <section class="last-name">
+                <label for="lastName">LAST NAME<span class="red">*</span></label>
+                <input type="text" name="lastName" id="lastName" class="input-box" required />
+              </section>
+
+              <section class="company">
+                <label for="company">COMPANY<span class="red">*</span></label>
+                <input type="text" name="company" id="company" class="input-box" required />
+              </section>
+
+              <section class="email">
+                <label for="email">EMAIL<span class="red">*</span></label>
+                <input type="email" name="email" id="email" class="input-box" required />
+              </section>
+
+              <section class="phoneNumber">
+                <label for="phoneNumber">PHONE NUMBER<span class="red">*</span></label>
+                <input
+                  type="text"
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  class="input-box"
+                  required
+                />
+              </section>
+            </section>
+            <section class="flex-2">
+              <section class="mealPerference">
+                <label for="mealPerference">MEAL PREFERENCE</label>
+                <select id="mealPerference" class="input-box">
+                  <option value="vegetarian">Vegetarian</option>
+                </select>
+              </section>
+
+              <section class="paymentMode">
+                <label for="paymentMode">PAYMENT MODE</label>
+                <section class="radio-btn">
+                    <div class="cash">
+                        <input type="radio" name="paymentMode" value="Cash" id="Cash" required />
+                        <label for="Cash">Cash</label>
+                    </div>
+                    <div class="cheque">
+                        <input type="radio" name="paymentMode" id="cheque" required />
+                        <label for="cheque">Cheque</label>
+                    </div>
+                    <div class="demand">
+                        <input type="radio" name="paymentMode" id="demandDraf" required />
+                        <label for="demandDraf">Demand Draf</label>
+                    </div>                
+                </section>
+              </section>
+
+              <section class="chequeNo">
+                <label for="chequeNo">DD/CHEQUE NO</label>
+                <input type="text" name="chequeNo" id="chequeNo" class="input-box" required />
+              </section>
+
+              <section class="drawnOn">
+                <label for="drawnOn">DRAWN ON(BAK NAME)</label>
+                <input type="text" name="chequeNo" id="chequeNo" class="input-box" required />
+              </section>
+
+              <section class="payableAt">
+                <label for="payableAt">PAYABLE AT</label>
+                <input type="text" name="payableAt" id="payableAt" class="input-box" required />
+              </section>
+            </section>
+          </section>
+
+          <section class="donateUs">
+            <label for="donateUs">DONATE US</label>
+            <input type="range" id="donateUs" class="input-box" min="0" max="1000" value="470" />
+        </section>
+
+        <section class="form-btn">
+            <button type="submit" class="submit">SUBMIT</button>
+            <button type="reset" class="reset">RESET</button>
+        </section>
+
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
