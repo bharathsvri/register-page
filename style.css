@@ -109,6 +109,10 @@ label{
     font-size: 15px;
 }
 
+.radio-btn input{
+    accent-color: green;
+}
+
 .form-btn{
     display: flex;
     gap: 4px;
